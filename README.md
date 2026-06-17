@@ -1,9 +1,31 @@
-# Martos & Mystic - web v4
+# Martos & Mystic - web v5
 
-Cambios realizados:
+## Cambios
 
-- Eliminado assets/js/albums.js
-- Se mantiene releases.js como base futura de la discografía.
-- Preparada la migración a álbumes + singles.
-- Conservadas todas las imágenes y estructura actual.
-- Próximo paso: integrar portadas reales y enlaces YouTube en releases.js.
+- Proyecto migrado definitivamente a `releases.js`.
+- Eliminado `albums.js`.
+- Añadidas y renombradas las portadas de los singles.
+- Añadido `Don't Engage` con portada y contraportada.
+- Añadido `Birds In Dub`.
+- Mantenido `Sick World` como álbum con sus canciones internas.
+- La discografía queda preparada para crecer con nuevos singles y álbumes.
+
+## Nombres de archivos añadidos
+
+### Singles y canciones
+
+- `sick-world.jpg`
+- `i-love-jah.jpg`
+- `more-than-you-can-chew.jpg`
+- `thank-you.jpg`
+- `dub-you.jpg`
+- `more-than-you-can-dub.jpg`
+- `i-love-dub.jpg`
+- `dub-world.jpg`
+- `birds-in-dub.jpg`
+- `dont-engage.jpg`
+- `dont-engage-back.jpg`
+
+## Próximo paso
+
+Añadir las URLs reales de YouTube dentro de `assets/js/releases.js`.
