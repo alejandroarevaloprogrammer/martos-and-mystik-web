@@ -7,7 +7,7 @@ export function getCurrentLanguage() {
 }
 
 export function t(key) {
-    return translations[currentLanguage][key] || translations.en[key] || key;
+    return translations[currentLanguage]?.[key] || translations.en[key] || key;
 }
 
 export function setLanguage(language) {
@@ -26,7 +26,6 @@ export function setLanguage(language) {
     });
 
     localStorage.setItem("martosMysticLanguage", language);
-
     document.dispatchEvent(new CustomEvent("languageChanged"));
 }
 

@@ -6,12 +6,12 @@ export const translations = {
         navContact: "Contact",
 
         heroEyebrow: "Official Website",
-        heroSubtitle: "Electronic dub music duo from Barcelona.",
+        heroSubtitle: "Reggae, dub and electronic roots from Barcelona.",
         heroButton: "Listen Now",
 
         aboutEyebrow: "The Duo",
         aboutTitle: "About Martos & Mystic",
-        aboutText: "Martos & Mystic is a music project focused on dub, electronic textures and conscious sound.",
+        aboutText: "Martos & Mystic is a music project focused on conscious reggae, dub, electric violin and electronic roots textures.",
 
         discographyEyebrow: "Music",
         discographyTitle: "Discography",
@@ -22,6 +22,11 @@ export const translations = {
         contactEyebrow: "Booking & Info",
         contactTitle: "Contact",
 
+        albumsTitle: "Albums",
+        singlesTitle: "Singles",
+        tracksTitle: "Tracks",
+        latestRelease: "Latest Release",
+        releasedOn: "Released on",
         viewOnYoutube: "Listen on YouTube",
         comingSoon: "Coming soon"
     },
@@ -33,12 +38,12 @@ export const translations = {
         navContact: "Contacto",
 
         heroEyebrow: "Web oficial",
-        heroSubtitle: "Dúo de música dub electrónica desde Barcelona.",
+        heroSubtitle: "Reggae, dub y roots electrónico desde Barcelona.",
         heroButton: "Escuchar ahora",
 
         aboutEyebrow: "El dúo",
         aboutTitle: "Sobre Martos & Mystic",
-        aboutText: "Martos & Mystic es un proyecto musical centrado en el dub, las texturas electrónicas y el sonido consciente.",
+        aboutText: "Martos & Mystic es un proyecto musical centrado en reggae consciente, dub, violín eléctrico y texturas electrónicas roots.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografía",
@@ -49,6 +54,11 @@ export const translations = {
         contactEyebrow: "Booking e info",
         contactTitle: "Contacto",
 
+        albumsTitle: "Álbumes",
+        singlesTitle: "Singles",
+        tracksTitle: "Canciones",
+        latestRelease: "Último lanzamiento",
+        releasedOn: "Publicado el",
         viewOnYoutube: "Escuchar en YouTube",
         comingSoon: "Próximamente"
     },
@@ -60,12 +70,12 @@ export const translations = {
         navContact: "Contacte",
 
         heroEyebrow: "Web oficial",
-        heroSubtitle: "Duo de música dub electrònica des de Barcelona.",
+        heroSubtitle: "Reggae, dub i roots electrònic des de Barcelona.",
         heroButton: "Escolta ara",
 
         aboutEyebrow: "El duo",
         aboutTitle: "Sobre Martos & Mystic",
-        aboutText: "Martos & Mystic és un projecte musical centrat en el dub, les textures electròniques i el so conscient.",
+        aboutText: "Martos & Mystic és un projecte musical centrat en reggae conscient, dub, violí elèctric i textures electròniques roots.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografia",
@@ -76,6 +86,11 @@ export const translations = {
         contactEyebrow: "Booking i info",
         contactTitle: "Contacte",
 
+        albumsTitle: "Àlbums",
+        singlesTitle: "Singles",
+        tracksTitle: "Cançons",
+        latestRelease: "Últim llançament",
+        releasedOn: "Publicat el",
         viewOnYoutube: "Escoltar a YouTube",
         comingSoon: "Properament"
     }

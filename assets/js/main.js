@@ -8,5 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("languageChanged", () => {
         renderReleases();
+        updateFeaturedRelease();
     });
 });

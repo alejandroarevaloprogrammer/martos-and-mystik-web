@@ -1,31 +1,54 @@
-# Martos & Mystic - web v5
+# Martos & Mystic - web v6
 
-## Cambios
+Versión completa con estructura final de discografía.
 
-- Proyecto migrado definitivamente a `releases.js`.
-- Eliminado `albums.js`.
-- Añadidas y renombradas las portadas de los singles.
-- Añadido `Don't Engage` con portada y contraportada.
-- Añadido `Birds In Dub`.
-- Mantenido `Sick World` como álbum con sus canciones internas.
-- La discografía queda preparada para crecer con nuevos singles y álbumes.
+## Cambios principales
 
-## Nombres de archivos añadidos
+- Discografía reorganizada correctamente:
+  - `Sick World` es un álbum de 8 temas.
+  - `Dub You`, `More Than You Can Dub`, `I Love Dub` y `Dub World` quedan como canciones del álbum, no como singles principales.
+  - Singles independientes: `Birds In Dub`, `Obey`, `Don't Engage`.
 
-### Singles y canciones
+- Imágenes renombradas y reorganizadas:
+  - `assets/img/releases/albums/sick-world/`
+  - `assets/img/releases/tracks/sick-world/`
+  - `assets/img/releases/singles/`
 
-- `sick-world.jpg`
-- `i-love-jah.jpg`
-- `more-than-you-can-chew.jpg`
-- `thank-you.jpg`
-- `dub-you.jpg`
-- `more-than-you-can-dub.jpg`
-- `i-love-dub.jpg`
-- `dub-world.jpg`
+- `releases.js` contiene:
+  - fechas oficiales,
+  - enlaces de YouTube,
+  - créditos,
+  - portadas,
+  - tracks internos del álbum.
+
+## Estructura de imágenes
+
+### Álbum
+
+- `assets/img/releases/albums/sick-world/cover.jpg`
+- `assets/img/releases/albums/sick-world/back-cover.jpg`
+- `assets/img/releases/albums/sick-world/background.jpg`
+- `assets/img/releases/albums/sick-world/group.jpg`
+- `assets/img/releases/albums/sick-world/artwork.jpg`
+
+### Tracks de Sick World
+
+- `01-sick-world.jpg`
+- `02-i-love-jah.jpg`
+- `03-more-than-you-can-chew.jpg`
+- `04-thank-you.jpg`
+- `05-dub-you.jpg`
+- `06-more-than-you-can-dub.jpg`
+- `07-i-love-dub.jpg`
+- `08-dub-world.jpg`
+
+### Singles
+
 - `birds-in-dub.jpg`
+- `obey.jpg`
 - `dont-engage.jpg`
 - `dont-engage-back.jpg`
 
-## Próximo paso
+## Versión
 
-Añadir las URLs reales de YouTube dentro de `assets/js/releases.js`.
+web-v6
