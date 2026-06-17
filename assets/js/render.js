@@ -1,15 +1,22 @@
+
 import { releases } from "./releases.js";
 
-export function renderReleases(){
-const container=document.querySelector("#releases");
-container.innerHTML=releases.map(item=>`
-<div class="col-md-6 col-lg-4">
-<div class="card h-100">
-<img src="${item.cover}" class="card-img-top">
-<div class="card-body">
-<h3 class="h5">${item.title}</h3>
-<p>${item.year}</p>
-</div>
-</div>
-</div>`).join("");
+export function renderReleases() {
+    const container = document.querySelector("#albums");
+    if (!container) return;
+
+    const ordered = [...releases].sort((a,b) => b.year - a.year);
+
+    container.innerHTML = ordered.map(item => `
+        <div class="col-lg-6 mx-auto">
+            <article class="album-card">
+                <img src="${item.cover}" alt="${item.title}">
+                <div class="card-body">
+                    <p class="eyebrow">${item.type}</p>
+                    <h3>${item.title}</h3>
+                    <p>${item.year}</p>
+                </div>
+            </article>
+        </div>
+    `).join("");
 }
