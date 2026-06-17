@@ -1,0 +1,15 @@
+:root{
+--mm-bg:#080808;
+--mm-surface:#121212;
+--mm-orange:#FF5400;
+--mm-gold:#FDB51C;
+--mm-green:#00A800;
+--mm-text:#EAEAEA;
+}
+body{background:var(--mm-bg);color:var(--mm-text);font-family:system-ui,sans-serif;}
+.mm-navbar{background:#000;}
+.hero{min-height:90vh;display:flex;align-items:center;justify-content:center;}
+.hero-logo{max-width:300px;margin-bottom:2rem;}
+.btn-mm{background:var(--mm-orange);color:white;}
+.section{padding:100px 0;}
+.card{background:var(--mm-surface);}
