@@ -77,7 +77,7 @@ export const releases = [
         backCover: "assets/img/releases/albums/sick-world/back-cover.jpg",
         artwork: "assets/img/releases/albums/sick-world/artwork.jpg",
         photo: "assets/img/releases/albums/sick-world/group.jpg",
-        youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4",
+        youtube: "https://www.youtube.com/watch?v=TJPq_iFBVS0",
         label: "Martos and Mystik / Kraken Distribución",
         producer: "Joan Martos",
         credits: [
@@ -104,42 +104,42 @@ export const releases = [
                 title: "I Love Jah",
                 releaseDate: "2023-07-14",
                 cover: "assets/img/releases/tracks/sick-world/02-i-love-jah.jpg",
-                youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM"
+                youtube: "https://www.youtube.com/watch?v=Sy5FI9_hX2c"
             },
             {
                 number: 3,
                 title: "More Than You Can Chew",
                 releaseDate: "2023-08-04",
                 cover: "assets/img/releases/tracks/sick-world/03-more-than-you-can-chew.jpg",
-                youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk"
+                youtube: "https://www.youtube.com/watch?v=sRB9apfcwRw"
             },
             {
                 number: 4,
                 title: "Thank You",
                 releaseDate: "2023-09-15",
                 cover: "assets/img/releases/tracks/sick-world/04-thank-you.jpg",
-                youtube: "https://www.youtube.com/watch?v=dRlLetu9acc"
+                youtube: "https://www.youtube.com/watch?v=m9SuYoE0TTs"
             },
             {
                 number: 5,
                 title: "Dub You",
                 releaseDate: "2024-01-26",
                 cover: "assets/img/releases/tracks/sick-world/05-dub-you.jpg",
-                youtube: "https://www.youtube.com/watch?v=m9SuYoE0TTs"
+                youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4"
             },
             {
                 number: 6,
                 title: "More Than You Can Dub",
                 releaseDate: "2023-12-22",
                 cover: "assets/img/releases/tracks/sick-world/06-more-than-you-can-dub.jpg",
-                youtube: "https://www.youtube.com/watch?v=sRB9apfcwRw"
+                youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM"
             },
             {
                 number: 7,
                 title: "I Love Dub",
                 releaseDate: "2023-11-10",
                 cover: "assets/img/releases/tracks/sick-world/07-i-love-dub.jpg",
-                youtube: "https://www.youtube.com/watch?v=Sy5FI9_hX2c"
+                youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk"
             },
             {
                 number: 8,
@@ -147,7 +147,7 @@ export const releases = [
                 officialTitle: "Dub World By Digital Cookies",
                 releaseDate: "2023-10-20",
                 cover: "assets/img/releases/tracks/sick-world/08-dub-world.jpg",
-                youtube: "https://www.youtube.com/watch?v=TJPq_iFBVS0"
+                youtube: "https://www.youtube.com/watch?v=dRlLetu9acc"
             }
         ]
     }

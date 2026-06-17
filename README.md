@@ -52,3 +52,26 @@ Versión completa con estructura final de discografía.
 ## Versión
 
 web-v6
+
+
+## web-v7
+
+Corrección importante:
+
+- Corregidos los enlaces de YouTube.
+- El mapeo correcto queda así:
+
+Singles:
+- Don't Engage: NafGHpSOVnA
+- Obey: Ct3--GcFqpU
+- Birds In Dub: eSS19KJWhvA
+
+Tracks de Sick World:
+- Sick World: TJPq_iFBVS0
+- I Love Jah: Sy5FI9_hX2c
+- More Than You Can Chew: sRB9apfcwRw
+- Thank You: m9SuYoE0TTs
+- Dub You: SvCtOhdSvt4
+- More Than You Can Dub: QB52dMFL3wM
+- I Love Dub: ys6KjWex8Zk
+- Dub World: dRlLetu9acc
