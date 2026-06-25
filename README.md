@@ -175,3 +175,20 @@ También se han renombrado/reordenado las portadas físicas de los tracks 5-8:
 - `06-i-love-dub.jpg`
 - `07-more-than-you-can-dub.jpg`
 - `08-dub-you.jpg`
+
+
+## web-v16
+
+Cambios:
+
+- Sustituida la portada del álbum `Sick World` por la portada cuadrada simple.
+- La imagen mantiene la ruta canónica:
+  - `assets/img/releases/albums/sick-world/cover.jpg`
+- Añadida separación explícita entre:
+  - `albumReleaseDate`
+  - `trackReleaseDate`
+
+Revisión:
+
+- Orden del álbum revisado: correcto.
+- Rutas y nombres de portadas de tracks revisados: correctos.
