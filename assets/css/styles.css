@@ -334,3 +334,12 @@ img {
     color: var(--mm-orange);
     transform: translateY(-3px);
 }
+
+.track-card img {
+    border-radius: 0.75rem;
+}
+
+.track-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
