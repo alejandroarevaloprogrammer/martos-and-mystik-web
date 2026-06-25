@@ -131,3 +131,47 @@ Cambios internos importantes:
   - `Obey`
   - `Birds In Dub`
 - Las canciones del álbum ya están preparadas para recibir embeds de Bandcamp sin tocar HTML ni CSS.
+
+
+## web-v13
+
+Cambios:
+
+- Añadidos embeds de Bandcamp para las 8 canciones del álbum `Sick World`.
+- `discography.js` mantiene una estructura común para singles y tracks:
+  - `platforms.youtube`
+  - `platforms.bandcamp.embed`
+  - `platforms.bandcamp.url`
+- Los tracks del álbum ahora muestran reproductor Bandcamp igual que los singles.
+- `render.js` queda estabilizado para renderizar cualquier single o track con la misma lógica.
+
+
+## web-v14
+
+Corrección:
+
+- Corregidos los embeds de Bandcamp de las canciones 6, 7 y 8 del álbum `Sick World`.
+  - 06 More Than You Can Dub → track=2926156605
+  - 07 I Love Dub → track=929886929
+  - 08 Dub World → track=728273362
+
+
+## web-v15
+
+Corrección importante del orden real del álbum `Sick World`:
+
+1. Sick World
+2. I Love Jah
+3. More Than You Can Chew
+4. Thank You
+5. Dub World
+6. I Love Dub
+7. More Than You Can Dub
+8. Dub You
+
+También se han renombrado/reordenado las portadas físicas de los tracks 5-8:
+
+- `05-dub-world.jpg`
+- `06-i-love-dub.jpg`
+- `07-more-than-you-can-dub.jpg`
+- `08-dub-you.jpg`

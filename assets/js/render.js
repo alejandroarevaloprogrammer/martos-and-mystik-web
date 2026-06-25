@@ -25,13 +25,10 @@ function getDescription(release) {
     return release.description?.[lang] || release.description?.en || "";
 }
 
-function releaseButton(url) {
-    if (!url) return "";
-    return `<a href="${url}" target="_blank" rel="noopener" class="btn btn-mm mt-3">${t("viewOnYoutube")}</a>`;
-}
-
-function bandcampPlayer(embedUrl, title = "") {
+function bandcampPlayer(embedUrl, title = "", bandcampUrl = "") {
     if (!embedUrl) return "";
+
+    const fallbackUrl = bandcampUrl || "https://martosandmystik.bandcamp.com";
 
     return `
         <div class="bandcamp-player mt-3">
@@ -40,23 +37,26 @@ function bandcampPlayer(embedUrl, title = "") {
                 title="Bandcamp player ${title}"
                 loading="lazy"
                 seamless>
-                <a href="https://martosandmystik.bandcamp.com/track/dont-engage">Don't Engage de Martos and Mystik</a>
+                <a href="${fallbackUrl}">${title} de Martos and Mystik</a>
             </iframe>
         </div>
     `;
 }
 
 function renderTrack(track) {
+    const bandcamp = track.platforms?.bandcamp;
+
     return `
         <div class="col-12 col-md-6">
-            <article class="track-card">
-                <a href="${track.platforms?.youtube}" target="_blank" rel="noopener">
-                    <img src="${track.cover}" alt="${track.title} cover">
-                </a>
+            <article class="track-card h-100">
+                <img src="${track.cover}" alt="${track.title} cover">
+
                 <div class="track-card-body">
                     <p class="track-number">${String(track.number).padStart(2, "0")}</p>
                     <h4>${track.title}</h4>
                     <p>${formatDate(track.releaseDate)}</p>
+
+                    ${bandcampPlayer(bandcamp?.embed, track.title, bandcamp?.url)}
                 </div>
             </article>
         </div>
@@ -80,7 +80,6 @@ function renderAlbum(album) {
                             <h3>${album.title}</h3>
                             <p class="album-meta">${album.artist} · ${formatDate(album.releaseDate)}</p>
                             <p>${getDescription(album)}</p>
-                            
                         </div>
                     </div>
                 </div>
@@ -93,18 +92,19 @@ function renderAlbum(album) {
 }
 
 function renderSingle(single) {
+    const bandcamp = single.platforms?.bandcamp;
+
     return `
         <div class="col-12 col-md-6">
             <article class="track-card h-100">
-                <a href="${single.platforms?.youtube}" target="_blank" rel="noopener">
-                    <img src="${single.cover}" alt="${single.title} cover">
-                </a>
+                <img src="${single.cover}" alt="${single.title} cover">
+
                 <div class="track-card-body">
                     <p class="eyebrow">${single.type}</p>
                     <h4>${single.title}</h4>
                     <p>${single.artist} · ${formatDate(single.releaseDate)}</p>
-                    ${bandcampPlayer(single.platforms?.bandcamp?.embed, single.title)}
-                    
+
+                    ${bandcampPlayer(bandcamp?.embed, single.title, bandcamp?.url)}
                 </div>
             </article>
         </div>
@@ -141,28 +141,24 @@ export function renderReleases() {
 
 export function updateFeaturedRelease() {
     const featured = discography.find(release => release.featured) || discography[0];
+
     if (!featured) return;
 
     const title = document.querySelector("[data-featured-title]");
     const date = document.querySelector("[data-featured-date]");
     const image = document.querySelector("[data-featured-cover]");
-    const button = document.querySelector("[data-featured-link]");
     const featuredBandcamp = document.querySelector("[data-featured-bandcamp]");
+    const bandcamp = featured.platforms?.bandcamp;
 
     if (title) title.textContent = featured.title;
     if (date) date.textContent = formatDate(featured.releaseDate);
+
     if (image) {
         image.src = featured.cover;
         image.alt = `${featured.title} cover`;
     }
 
-    if (button && featured.platforms?.youtube) {
-        button.href = featured.platforms?.youtube;
-        button.target = "_blank";
-        button.rel = "noopener";
-    }
-
     if (featuredBandcamp) {
-        featuredBandcamp.innerHTML = bandcampPlayer(featured.platforms?.bandcamp?.embed, featured.title);
+        featuredBandcamp.innerHTML = bandcampPlayer(bandcamp?.embed, featured.title, bandcamp?.url);
     }
 }

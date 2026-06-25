@@ -123,8 +123,8 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=TJPq_iFBVS0",
                     bandcamp: {
-                        embed: "",
-                        url: ""
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=2034594872/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
             },
@@ -139,8 +139,8 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=Sy5FI9_hX2c",
                     bandcamp: {
-                        embed: "",
-                        url: ""
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=100727319/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
             },
@@ -155,8 +155,8 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=sRB9apfcwRw",
                     bandcamp: {
-                        embed: "",
-                        url: ""
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=4255952868/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
             },
@@ -171,73 +171,73 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=m9SuYoE0TTs",
                     bandcamp: {
-                        embed: "",
-                        url: ""
-                    }
-                }
-            },
-            {
-                id: "dub-you",
-                number: 5,
-                title: "Dub You",
-                type: "track",
-                album: "sick-world",
-                releaseDate: "2024-01-26",
-                cover: "assets/img/releases/tracks/sick-world/05-dub-you.jpg",
-                platforms: {
-                    youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4",
-                    bandcamp: {
-                        embed: "",
-                        url: ""
-                    }
-                }
-            },
-            {
-                id: "more-than-you-can-dub",
-                number: 6,
-                title: "More Than You Can Dub",
-                type: "track",
-                album: "sick-world",
-                releaseDate: "2023-12-22",
-                cover: "assets/img/releases/tracks/sick-world/06-more-than-you-can-dub.jpg",
-                platforms: {
-                    youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM",
-                    bandcamp: {
-                        embed: "",
-                        url: ""
-                    }
-                }
-            },
-            {
-                id: "i-love-dub",
-                number: 7,
-                title: "I Love Dub",
-                type: "track",
-                album: "sick-world",
-                releaseDate: "2023-11-10",
-                cover: "assets/img/releases/tracks/sick-world/07-i-love-dub.jpg",
-                platforms: {
-                    youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk",
-                    bandcamp: {
-                        embed: "",
-                        url: ""
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=3300533351/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
             },
             {
                 id: "dub-world",
-                number: 8,
+                number: 5,
                 title: "Dub World",
                 officialTitle: "Dub World By Digital Cookies",
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-10-20",
-                cover: "assets/img/releases/tracks/sick-world/08-dub-world.jpg",
+                cover: "assets/img/releases/tracks/sick-world/05-dub-world.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=dRlLetu9acc",
                     bandcamp: {
-                        embed: "",
-                        url: ""
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=4207156311/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
+                    }
+                }
+            },
+            {
+                id: "i-love-dub",
+                number: 6,
+                title: "I Love Dub",
+                type: "track",
+                album: "sick-world",
+                releaseDate: "2023-11-10",
+                cover: "assets/img/releases/tracks/sick-world/06-i-love-dub.jpg",
+                platforms: {
+                    youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk",
+                    bandcamp: {
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=2926156605/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
+                    }
+                }
+            },
+            {
+                id: "more-than-you-can-dub",
+                number: 7,
+                title: "More Than You Can Dub",
+                type: "track",
+                album: "sick-world",
+                releaseDate: "2023-12-22",
+                cover: "assets/img/releases/tracks/sick-world/07-more-than-you-can-dub.jpg",
+                platforms: {
+                    youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM",
+                    bandcamp: {
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=929886929/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
+                    }
+                }
+            },
+            {
+                id: "dub-you",
+                number: 8,
+                title: "Dub You",
+                type: "track",
+                album: "sick-world",
+                releaseDate: "2024-01-26",
+                cover: "assets/img/releases/tracks/sick-world/08-dub-you.jpg",
+                platforms: {
+                    youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4",
+                    bandcamp: {
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=728273362/transparent=true/",
+                        url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
             }
