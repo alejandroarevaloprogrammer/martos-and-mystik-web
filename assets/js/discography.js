@@ -23,7 +23,7 @@ export const discography = [
         platforms: {
             youtube: "https://www.youtube.com/watch?v=NafGHpSOVnA",
             bandcamp: {
-                embed: "https://bandcamp.com/EmbeddedPlayer/track=3205995710/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
+                embed: "https://bandcamp.com/EmbeddedPlayer/track=3205995710/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/transparent=true/",
                 url: "https://martosandmystik.bandcamp.com/track/dont-engage"
             }
         }
@@ -51,7 +51,7 @@ export const discography = [
         platforms: {
             youtube: "https://www.youtube.com/watch?v=Ct3--GcFqpU",
             bandcamp: {
-                embed: "https://bandcamp.com/EmbeddedPlayer/track=2560972517/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
+                embed: "https://bandcamp.com/EmbeddedPlayer/track=2560972517/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/transparent=true/",
                 url: "https://martosandmystik.bandcamp.com/track/obey"
             }
         }
@@ -78,7 +78,7 @@ export const discography = [
         platforms: {
             youtube: "https://www.youtube.com/watch?v=eSS19KJWhvA",
             bandcamp: {
-                embed: "https://bandcamp.com/EmbeddedPlayer/track=1650268420/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
+                embed: "https://bandcamp.com/EmbeddedPlayer/track=1650268420/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/transparent=true/",
                 url: "https://martosandmystik.bandcamp.com/track/bird-in-dub"
             }
         }
@@ -125,7 +125,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=TJPq_iFBVS0",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=2034594872/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=2034594872/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -142,7 +142,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=Sy5FI9_hX2c",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=100727319/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=100727319/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -159,7 +159,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=sRB9apfcwRw",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=4255952868/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=4255952868/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -176,7 +176,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=m9SuYoE0TTs",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=3300533351/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=3300533351/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -194,7 +194,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=dRlLetu9acc",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=4207156311/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=4207156311/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -211,7 +211,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=2926156605/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=2926156605/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -228,7 +228,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=929886929/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=929886929/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
@@ -245,7 +245,7 @@ export const discography = [
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4",
                     bandcamp: {
-                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=728273362/transparent=true/",
+                        embed: "https://bandcamp.com/EmbeddedPlayer/album=714093108/size=large/bgcol=ffffff/linkcol=ff5400/tracklist=false/artwork=small/track=728273362/transparent=true/",
                         url: "https://martosandmystik.bandcamp.com/album/sick-world"
                     }
                 }
