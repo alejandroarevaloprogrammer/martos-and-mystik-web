@@ -279,3 +279,12 @@ img {
     padding: 0.55rem 1rem;
     font-size: 0.9rem;
 }
+
+
+/* web-v10: Bandcamp player */
+.bandcamp-player iframe {
+    border: 0;
+    width: 100%;
+    height: 120px;
+    display: block;
+}

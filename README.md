@@ -97,3 +97,20 @@ Cambios:
 
 - Los singles ahora usan el mismo diseño visual que las canciones del álbum.
 - Las portadas de singles se muestran cuadradas, no recortadas en formato rectangular.
+
+
+## web-v10
+
+Cambios:
+
+- `Albums` cambiado a `Album` en EN / ES / CA.
+- La sección `Singles` aparece antes que `Album`.
+- Añadido embed de Bandcamp para `Don't Engage`.
+- El embed aparece en:
+  - `Latest Release`
+  - tarjeta del single `Don't Engage`
+
+
+## web-v11
+- Eliminado el botón 'Listen on YouTube'.
+- Actualizado el reproductor de Bandcamp al formato large (120px).

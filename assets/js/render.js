@@ -30,6 +30,22 @@ function releaseButton(url) {
     return `<a href="${url}" target="_blank" rel="noopener" class="btn btn-mm mt-3">${t("viewOnYoutube")}</a>`;
 }
 
+function bandcampPlayer(embedUrl, title = "") {
+    if (!embedUrl) return "";
+
+    return `
+        <div class="bandcamp-player mt-3">
+            <iframe
+                src="${embedUrl}"
+                title="Bandcamp player ${title}"
+                loading="lazy"
+                seamless>
+                <a href="https://martosandmystik.bandcamp.com/track/dont-engage">Don't Engage de Martos and Mystik</a>
+            </iframe>
+        </div>
+    `;
+}
+
 function renderTrack(track) {
     return `
         <div class="col-12 col-md-6">
@@ -64,7 +80,7 @@ function renderAlbum(album) {
                             <h3>${album.title}</h3>
                             <p class="album-meta">${album.artist} · ${formatDate(album.releaseDate)}</p>
                             <p>${getDescription(album)}</p>
-                            ${releaseButton(album.youtube)}
+                            
                         </div>
                     </div>
                 </div>
@@ -87,7 +103,8 @@ function renderSingle(single) {
                     <p class="eyebrow">${single.type}</p>
                     <h4>${single.title}</h4>
                     <p>${single.artist} · ${formatDate(single.releaseDate)}</p>
-                    ${releaseButton(single.youtube)}
+                    ${bandcampPlayer(single.bandcampEmbed, single.title)}
+                    
                 </div>
             </article>
         </div>
@@ -110,12 +127,12 @@ export function renderReleases() {
     const singleMarkup = singles.map(renderSingle).join("");
 
     container.innerHTML = `
-        <div class="discography-block mt-5">
+        <div class="discography-block">
             <h3 class="subsection-title">${t("singlesTitle")}</h3>
             <div class="row g-4">${singleMarkup}</div>
         </div>
 
-        <div class="discography-block">
+        <div class="discography-block mt-5">
             <h3 class="subsection-title">${t("albumsTitle")}</h3>
             <div class="row g-4">${albumMarkup}</div>
         </div>
@@ -130,6 +147,7 @@ export function updateFeaturedRelease() {
     const date = document.querySelector("[data-featured-date]");
     const image = document.querySelector("[data-featured-cover]");
     const button = document.querySelector("[data-featured-link]");
+    const featuredBandcamp = document.querySelector("[data-featured-bandcamp]");
 
     if (title) title.textContent = featured.title;
     if (date) date.textContent = formatDate(featured.releaseDate);
@@ -142,5 +160,9 @@ export function updateFeaturedRelease() {
         button.href = featured.youtube;
         button.target = "_blank";
         button.rel = "noopener";
+    }
+
+    if (featuredBandcamp) {
+        featuredBandcamp.innerHTML = bandcampPlayer(featured.bandcampEmbed, featured.title);
     }
 }

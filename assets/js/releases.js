@@ -10,6 +10,7 @@ export const releases = [
         cover: "assets/img/releases/singles/dont-engage.jpg",
         backCover: "assets/img/releases/singles/dont-engage-back.jpg",
         youtube: "https://www.youtube.com/watch?v=NafGHpSOVnA",
+        bandcampEmbed: "https://bandcamp.com/EmbeddedPlayer/track=3205995710/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
         label: "Martos and Mystik / Kraken Distribución",
         producer: "Joan Martos",
         credits: [
@@ -32,6 +33,7 @@ export const releases = [
         featured: false,
         cover: "assets/img/releases/singles/obey.jpg",
         youtube: "https://www.youtube.com/watch?v=Ct3--GcFqpU",
+        bandcampEmbed: "https://bandcamp.com/EmbeddedPlayer/track=2560972517/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
         label: "Martos and Mystik / Kraken Distribución",
         producer: "Joan Martos",
         credits: [
@@ -54,6 +56,7 @@ export const releases = [
         featured: false,
         cover: "assets/img/releases/singles/birds-in-dub.jpg",
         youtube: "https://www.youtube.com/watch?v=eSS19KJWhvA",
+        bandcampEmbed: "https://bandcamp.com/EmbeddedPlayer/track=1650268420/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/",
         label: "Martos and Mystik / Kraken Distribución",
         producer: "Joan Martos",
         credits: [
