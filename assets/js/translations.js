@@ -25,12 +25,12 @@ export function setLanguage(language) {
         button.classList.toggle("active", button.dataset.lang === language);
     });
 
-    localStorage.setItem("martosMysticLanguage", language);
+    localStorage.setItem("martosMystikLanguage", language);
     document.dispatchEvent(new CustomEvent("languageChanged"));
 }
 
 export function initLanguageSwitcher() {
-    const savedLanguage = localStorage.getItem("martosMysticLanguage") || "en";
+    const savedLanguage = localStorage.getItem("martosMystikLanguage") || "en";
 
     document.querySelectorAll("[data-lang]").forEach(button => {
         button.addEventListener("click", () => {

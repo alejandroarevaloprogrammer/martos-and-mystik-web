@@ -10,8 +10,8 @@ export const translations = {
         heroButton: "Listen Now",
 
         aboutEyebrow: "The Duo",
-        aboutTitle: "About Martos & Mystic",
-        aboutText: "Martos & Mystic is a music project focused on conscious reggae, dub, electric violin and electronic roots textures.",
+        aboutTitle: "About Martos & Mystik",
+        aboutText: "Martos & Mystik is a music project focused on conscious reggae, dub, electric violin and electronic roots textures.",
 
         discographyEyebrow: "Music",
         discographyTitle: "Discography",
@@ -42,8 +42,8 @@ export const translations = {
         heroButton: "Escuchar ahora",
 
         aboutEyebrow: "El dúo",
-        aboutTitle: "Sobre Martos & Mystic",
-        aboutText: "Martos & Mystic es un proyecto musical centrado en reggae consciente, dub, violín eléctrico y texturas electrónicas roots.",
+        aboutTitle: "Sobre Martos & Mystik",
+        aboutText: "Martos & Mystik es un proyecto musical centrado en reggae consciente, dub, violín eléctrico y texturas electrónicas roots.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografía",
@@ -74,8 +74,8 @@ export const translations = {
         heroButton: "Escolta ara",
 
         aboutEyebrow: "El duo",
-        aboutTitle: "Sobre Martos & Mystic",
-        aboutText: "Martos & Mystic és un projecte musical centrat en reggae conscient, dub, violí elèctric i textures electròniques roots.",
+        aboutTitle: "Sobre Martos & Mystik",
+        aboutText: "Martos & Mystik és un projecte musical centrat en reggae conscient, dub, violí elèctric i textures electròniques roots.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografia",

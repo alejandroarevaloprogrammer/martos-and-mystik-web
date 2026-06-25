@@ -1,4 +1,4 @@
-# Martos & Mystic - web v6
+# Martos & Mystik - web v6
 
 Versión completa con estructura final de discografía.
 
@@ -75,3 +75,12 @@ Tracks de Sick World:
 - More Than You Can Dub: QB52dMFL3wM
 - I Love Dub: ys6KjWex8Zk
 - Dub World: dRlLetu9acc
+
+
+## web-v8
+
+Corrección global de nombre:
+
+- `Mystic` cambiado a `Mystik` en toda la web.
+- Actualizados textos, metadatos, alt text, README y JavaScript.
+- Nombre oficial usado desde esta versión: `Martos & Mystik` / `Martos and Mystik`.
