@@ -32,7 +32,7 @@ function releaseButton(url) {
 
 function renderTrack(track) {
     return `
-        <div class="col-6 col-md-4 col-lg-3">
+        <div class="col-12 col-md-6">
             <article class="track-card">
                 <a href="${track.youtube}" target="_blank" rel="noopener">
                     <img src="${track.cover}" alt="${track.title} cover">
