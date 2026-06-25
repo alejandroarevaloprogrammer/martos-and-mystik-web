@@ -22,7 +22,7 @@ export const translations = {
         contactEyebrow: "Booking & Info",
         contactTitle: "Contact",
 
-        albumsTitle: "Albums",
+        albumsTitle: "Album",
         singlesTitle: "Singles",
         tracksTitle: "Tracks",
         latestRelease: "Latest Release",
@@ -54,7 +54,7 @@ export const translations = {
         contactEyebrow: "Booking e info",
         contactTitle: "Contacto",
 
-        albumsTitle: "Álbumes",
+        albumsTitle: "Álbum",
         singlesTitle: "Singles",
         tracksTitle: "Canciones",
         latestRelease: "Último lanzamiento",
@@ -86,7 +86,7 @@ export const translations = {
         contactEyebrow: "Booking i info",
         contactTitle: "Contacte",
 
-        albumsTitle: "Àlbums",
+        albumsTitle: "Àlbum",
         singlesTitle: "Singles",
         tracksTitle: "Cançons",
         latestRelease: "Últim llançament",
