@@ -78,14 +78,15 @@ function renderAlbum(album) {
 
 function renderSingle(single) {
     return `
-        <div class="col-md-6 col-lg-4">
-            <article class="release-card h-100">
-                <img class="release-cover" src="${single.cover}" alt="${single.title} cover">
-                <div class="release-body">
+        <div class="col-12 col-md-6">
+            <article class="track-card h-100">
+                <a href="${single.youtube}" target="_blank" rel="noopener">
+                    <img src="${single.cover}" alt="${single.title} cover">
+                </a>
+                <div class="track-card-body">
                     <p class="eyebrow">${single.type}</p>
-                    <h3>${single.title}</h3>
-                    <p class="album-meta">${single.artist} · ${formatDate(single.releaseDate)}</p>
-                    <p>${getDescription(single)}</p>
+                    <h4>${single.title}</h4>
+                    <p>${single.artist} · ${formatDate(single.releaseDate)}</p>
                     ${releaseButton(single.youtube)}
                 </div>
             </article>
@@ -109,14 +110,14 @@ export function renderReleases() {
     const singleMarkup = singles.map(renderSingle).join("");
 
     container.innerHTML = `
-        <div class="discography-block">
-            <h3 class="subsection-title">${t("albumsTitle")}</h3>
-            <div class="row g-4">${albumMarkup}</div>
-        </div>
-
         <div class="discography-block mt-5">
             <h3 class="subsection-title">${t("singlesTitle")}</h3>
             <div class="row g-4">${singleMarkup}</div>
+        </div>
+
+        <div class="discography-block">
+            <h3 class="subsection-title">${t("albumsTitle")}</h3>
+            <div class="row g-4">${albumMarkup}</div>
         </div>
     `;
 }

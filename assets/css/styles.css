@@ -267,3 +267,15 @@ img {
         margin: 0 auto;
     }
 }
+
+
+/* web-v9: album tracks and singles share the same square card layout */
+.track-card img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.track-card .btn-mm {
+    padding: 0.55rem 1rem;
+    font-size: 0.9rem;
+}

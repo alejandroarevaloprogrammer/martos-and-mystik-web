@@ -84,3 +84,16 @@ Corrección global de nombre:
 - `Mystic` cambiado a `Mystik` en toda la web.
 - Actualizados textos, metadatos, alt text, README y JavaScript.
 - Nombre oficial usado desde esta versión: `Martos & Mystik` / `Martos and Mystik`.
+
+
+## web-v9
+
+Cambios:
+
+- Las canciones del álbum pasan a mostrarse:
+  - móvil: 1 por fila
+  - tablet: 2 por fila
+  - escritorio: 2 por fila
+
+- Los singles ahora usan el mismo diseño visual que las canciones del álbum.
+- Las portadas de singles se muestran cuadradas, no recortadas en formato rectangular.
