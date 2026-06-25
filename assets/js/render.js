@@ -1,4 +1,4 @@
-import { releases } from "./releases.js";
+import { discography } from "./discography.js";
 import { getCurrentLanguage, t } from "./translations.js";
 
 function formatDate(dateString) {
@@ -50,7 +50,7 @@ function renderTrack(track) {
     return `
         <div class="col-12 col-md-6">
             <article class="track-card">
-                <a href="${track.youtube}" target="_blank" rel="noopener">
+                <a href="${track.platforms?.youtube}" target="_blank" rel="noopener">
                     <img src="${track.cover}" alt="${track.title} cover">
                 </a>
                 <div class="track-card-body">
@@ -96,14 +96,14 @@ function renderSingle(single) {
     return `
         <div class="col-12 col-md-6">
             <article class="track-card h-100">
-                <a href="${single.youtube}" target="_blank" rel="noopener">
+                <a href="${single.platforms?.youtube}" target="_blank" rel="noopener">
                     <img src="${single.cover}" alt="${single.title} cover">
                 </a>
                 <div class="track-card-body">
                     <p class="eyebrow">${single.type}</p>
                     <h4>${single.title}</h4>
                     <p>${single.artist} · ${formatDate(single.releaseDate)}</p>
-                    ${bandcampPlayer(single.bandcampEmbed, single.title)}
+                    ${bandcampPlayer(single.platforms?.bandcamp?.embed, single.title)}
                     
                 </div>
             </article>
@@ -115,11 +115,11 @@ export function renderReleases() {
     const container = document.querySelector("#albums");
     if (!container) return;
 
-    const albums = releases
+    const albums = discography
         .filter(release => release.type === "album")
         .sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
 
-    const singles = releases
+    const singles = discography
         .filter(release => release.type === "single")
         .sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
 
@@ -140,7 +140,7 @@ export function renderReleases() {
 }
 
 export function updateFeaturedRelease() {
-    const featured = releases.find(release => release.featured) || releases[0];
+    const featured = discography.find(release => release.featured) || discography[0];
     if (!featured) return;
 
     const title = document.querySelector("[data-featured-title]");
@@ -156,13 +156,13 @@ export function updateFeaturedRelease() {
         image.alt = `${featured.title} cover`;
     }
 
-    if (button && featured.youtube) {
-        button.href = featured.youtube;
+    if (button && featured.platforms?.youtube) {
+        button.href = featured.platforms?.youtube;
         button.target = "_blank";
         button.rel = "noopener";
     }
 
     if (featuredBandcamp) {
-        featuredBandcamp.innerHTML = bandcampPlayer(featured.bandcampEmbed, featured.title);
+        featuredBandcamp.innerHTML = bandcampPlayer(featured.platforms?.bandcamp?.embed, featured.title);
     }
 }

@@ -114,3 +114,20 @@ Cambios:
 ## web-v11
 - Eliminado el botón 'Listen on YouTube'.
 - Actualizado el reproductor de Bandcamp al formato large (120px).
+
+
+## web-v12
+
+Cambios internos importantes:
+
+- `releases.js` ha sido sustituido por `discography.js`.
+- La discografía ahora usa una estructura única para álbumes, singles y canciones del álbum.
+- Cada single y cada track puede tener sus propias plataformas:
+  - `platforms.youtube`
+  - `platforms.bandcamp.embed`
+  - `platforms.bandcamp.url`
+- Añadidos embeds de Bandcamp para:
+  - `Don't Engage`
+  - `Obey`
+  - `Birds In Dub`
+- Las canciones del álbum ya están preparadas para recibir embeds de Bandcamp sin tocar HTML ni CSS.
