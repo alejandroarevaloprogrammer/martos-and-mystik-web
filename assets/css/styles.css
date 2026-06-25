@@ -302,3 +302,35 @@ img {
     height: 120px;
     display: block;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    width: 100%;
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    color: var(--mm-text);
+    font-size: 2rem;
+    text-decoration: none;
+
+    transition: color .25s ease,
+                transform .25s ease;
+}
+
+.social-links a:hover {
+    color: var(--mm-orange);
+    transform: translateY(-3px);
+}
