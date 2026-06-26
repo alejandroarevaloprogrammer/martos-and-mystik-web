@@ -192,3 +192,22 @@ Revisión:
 
 - Orden del álbum revisado: correcto.
 - Rutas y nombres de portadas de tracks revisados: correctos.
+
+
+## web-v18
+
+Cambios:
+
+- Se mantiene solo el ajuste seguro de `.back-to-top`:
+  - `right: max(1rem, env(safe-area-inset-right));`
+  - `bottom: max(1rem, env(safe-area-inset-bottom));`
+- No se ha aplicado `overflow-x: hidden` global como solución principal.
+- Se ha aplicado una corrección específica para evitar overflow horizontal en móvil:
+  - `.social-links` ahora permite `flex-wrap`.
+  - En móviles pequeños se reduce el tamaño/gap de los iconos sociales.
+  - El botón `.back-to-top` se reduce ligeramente en pantallas muy pequeñas.
+
+Revisión:
+
+- No se ha usado `100vw` como causa directa.
+- La corrección se centra en elementos fijos/flexibles que pueden salirse del ancho en móvil.
