@@ -23,7 +23,21 @@ document.addEventListener("DOMContentLoaded", () => {
             behavior: "smooth"
         });
     });
-}
+    }
+
+    
+const navbarCollapse = document.querySelector(".navbar-collapse");
+const navbarNavLinks = document.querySelectorAll(".navbar-collapse .nav-link");
+
+navbarNavLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        if (window.innerWidth < 992 && navbarCollapse) {
+            bootstrap.Collapse
+                .getOrCreateInstance(navbarCollapse)
+                .hide();
+        }
+    });
+});
 
     document.addEventListener("languageChanged", () => {
         renderReleases();
