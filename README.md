@@ -211,3 +211,19 @@ Revisión:
 
 - No se ha usado `100vw` como causa directa.
 - La corrección se centra en elementos fijos/flexibles que pueden salirse del ancho en móvil.
+
+
+## web-v19
+
+Corrección:
+
+- Añadido bloqueo definitivo del overflow horizontal.
+- Se usa `overflow-x: clip` en `html` y `body`.
+- Se añade fallback a `overflow-x: hidden` para navegadores que no soporten `clip`.
+- Se fuerza `box-sizing: border-box`.
+- Se limita `img`, `iframe`, `video`, `svg`, `main`, `section`, `header`, `footer` y `nav` a `max-width: 100%`.
+
+Motivo:
+
+- La web seguía permitiendo desplazamiento lateral en móvil.
+- Esta versión prioriza que la web quede fija horizontalmente en móviles.

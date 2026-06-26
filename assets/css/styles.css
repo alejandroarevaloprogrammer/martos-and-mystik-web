@@ -411,3 +411,43 @@ img {
         height: 44px;
     }
 }
+
+/* web-v19: definitive horizontal overflow lock */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+body {
+    position: relative;
+}
+
+main,
+section,
+header,
+footer,
+nav {
+    max-width: 100%;
+}
+
+img,
+iframe,
+video,
+svg {
+    max-width: 100%;
+}
