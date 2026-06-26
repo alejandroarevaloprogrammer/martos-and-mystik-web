@@ -457,3 +457,32 @@ video,
 svg {
     max-width: 100%;
 }
+
+.contact-form {
+    background: var(--mm-surface-soft);
+    border: 1px solid var(--mm-border);
+    border-radius: 0.75rem;
+    padding: 2rem;
+}
+
+.contact-form .form-label {
+    color: var(--mm-gold);
+    font-weight: 700;
+}
+
+.contact-form .form-control {
+    background: #0d0d0d;
+    border: 1px solid var(--mm-border);
+    color: var(--mm-text);
+}
+
+.contact-form .form-control:focus {
+    background: #0d0d0d;
+    border-color: var(--mm-orange);
+    color: var(--mm-text);
+    box-shadow: 0 0 0 0.2rem rgba(255, 84, 0, 0.2);
+}
+
+.contact-status {
+    color: var(--mm-gold);
+}

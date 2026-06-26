@@ -57,4 +57,30 @@ document.addEventListener("DOMContentLoaded", () => {
         renderReleases();
         updateFeaturedRelease();
     });
+
+    const contactForm = document.querySelector("#contactForm");
+const contactStatus = document.querySelector("#contactStatus");
+
+if (contactForm && contactStatus) {
+    emailjs.init("TU_PUBLIC_KEY");
+
+    contactForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        contactStatus.textContent = "Sending...";
+
+        try {
+            await emailjs.sendForm(
+                "TU_SERVICE_ID",
+                "TU_TEMPLATE_ID",
+                contactForm
+            );
+
+            contactStatus.textContent = "Message sent successfully.";
+            contactForm.reset();
+        } catch (error) {
+            contactStatus.textContent = "There was an error sending the message.";
+        }
+    });
+}
 });
