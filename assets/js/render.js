@@ -25,6 +25,15 @@ function getDescription(release) {
     return release.description?.[lang] || release.description?.en || "";
 }
 
+function renderDescription(release) {
+    const description = getDescription(release);
+
+    return description
+        .split("\n\n")
+        .map(paragraph => `<p>${paragraph}</p>`)
+        .join("");
+}
+
 function bandcampPlayer(embedUrl, title = "", bandcampUrl = "") {
     if (!embedUrl) return "";
 
@@ -79,7 +88,7 @@ function renderAlbum(album) {
                             <p class="eyebrow">${t("albumsTitle")}</p>
                             <h3>${album.title}</h3>
                             <p class="album-meta">${album.artist} · ${formatDate(album.releaseDate)}</p>
-                            <p>${getDescription(album)}</p>
+                            ${renderDescription(album)}
                         </div>
                     </div>
                 </div>
