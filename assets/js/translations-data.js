@@ -6,7 +6,7 @@ export const translations = {
         navContact: "Contact",
 
         heroEyebrow: "Official Website",
-        heroSubtitle: "Reggae, dub and electronic roots from Barcelona.",
+        heroSubtitle: "Martos & Mystik is a Catalan-Czech duo blending digital riddims, vocals and violin into their own take on reggae and dub.",
         heroButton: "Listen Now",
 
         aboutEyebrow: "The Duo",
@@ -38,7 +38,7 @@ export const translations = {
         navContact: "Contacto",
 
         heroEyebrow: "Web oficial",
-        heroSubtitle: "Reggae, dub y roots electrónico desde Barcelona.",
+        heroSubtitle: "Martos & Mystik es un dúo catalano-checo que fusiona riddims digitales, voces y violín en una propuesta de reggae y dub.",
         heroButton: "Escuchar ahora",
 
         aboutEyebrow: "El dúo",
@@ -70,7 +70,7 @@ export const translations = {
         navContact: "Contacte",
 
         heroEyebrow: "Web oficial",
-        heroSubtitle: "Reggae, dub i roots electrònic des de Barcelona.",
+        heroSubtitle: "Martos & Mystik és un duo catalanotxec que fusiona riddims digitals, veus i violí en una proposta de reggae i dub.",
         heroButton: "Escolta ara",
 
         aboutEyebrow: "El duo",
