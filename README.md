@@ -1,229 +1,100 @@
-# Martos & Mystik - web v6
+# Martos & Mystik Website
 
-Versión completa con estructura final de discografía.
+Responsive multilingual website developed for Martos & Mystik, a Catalan-Czech music duo blending reggae, dub, digital riddims, vocals and violin.
 
-## Cambios principales
+---
 
-- Discografía reorganizada correctamente:
-  - `Sick World` es un álbum de 8 temas.
-  - `Dub You`, `More Than You Can Dub`, `I Love Dub` y `Dub World` quedan como canciones del álbum, no como singles principales.
-  - Singles independientes: `Birds In Dub`, `Obey`, `Don't Engage`.
+# Live Website
 
-- Imágenes renombradas y reorganizadas:
-  - `assets/img/releases/albums/sick-world/`
-  - `assets/img/releases/tracks/sick-world/`
-  - `assets/img/releases/singles/`
+https://alejandroarevaloprogrammer.github.io/martos-and-mystik-web/
 
-- `releases.js` contiene:
-  - fechas oficiales,
-  - enlaces de YouTube,
-  - créditos,
-  - portadas,
-  - tracks internos del álbum.
+---
 
-## Estructura de imágenes
+# Preview
 
-### Álbum
+![Martos & Mystik Website Preview](og-image.jpg)
 
-- `assets/img/releases/albums/sick-world/cover.jpg`
-- `assets/img/releases/albums/sick-world/back-cover.jpg`
-- `assets/img/releases/albums/sick-world/background.jpg`
-- `assets/img/releases/albums/sick-world/group.jpg`
-- `assets/img/releases/albums/sick-world/artwork.jpg`
+---
 
-### Tracks de Sick World
+# Overview
 
-- `01-sick-world.jpg`
-- `02-i-love-jah.jpg`
-- `03-more-than-you-can-chew.jpg`
-- `04-thank-you.jpg`
-- `05-dub-you.jpg`
-- `06-more-than-you-can-dub.jpg`
-- `07-i-love-dub.jpg`
-- `08-dub-world.jpg`
+This project was developed as the official website for Martos & Mystik, with a focus on presenting their music, releases and visual identity through a clean and responsive front-end experience.
 
-### Singles
+The website includes multilingual support, a dynamically rendered discography, integrated Bandcamp players and responsive navigation across desktop, tablet and mobile devices.
 
-- `birds-in-dub.jpg`
-- `obey.jpg`
-- `dont-engage.jpg`
-- `dont-engage-back.jpg`
+---
 
-## Versión
+# Features
 
-web-v6
+- Responsive single-page design
+- English, Spanish and Catalan language support
+- Dynamic discography rendered with JavaScript
+- Singles and album track organization
+- Bandcamp player integration
+- Responsive mobile navigation
+- Automatic menu closing behavior
+- Scroll-to-top functionality
+- EmailJS contact form integration
+- SEO optimized metadata
+- Open Graph and Twitter Card support
+- XML sitemap and robots.txt
+- Responsive favicons and web app manifest
 
+---
 
-## web-v7
+# Technologies Used
 
-Corrección importante:
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Bootstrap Icons
+- EmailJS
 
-- Corregidos los enlaces de YouTube.
-- El mapeo correcto queda así:
+---
 
-Singles:
-- Don't Engage: NafGHpSOVnA
-- Obey: Ct3--GcFqpU
-- Birds In Dub: eSS19KJWhvA
+# Local Development
 
-Tracks de Sick World:
-- Sick World: TJPq_iFBVS0
-- I Love Jah: Sy5FI9_hX2c
-- More Than You Can Chew: sRB9apfcwRw
-- Thank You: m9SuYoE0TTs
-- Dub You: SvCtOhdSvt4
-- More Than You Can Dub: QB52dMFL3wM
-- I Love Dub: ys6KjWex8Zk
-- Dub World: dRlLetu9acc
+Use VSCode Live Server:
 
+1. Open the project folder in VSCode
+2. Right click `index.html`
+3. Select `Open with Live Server`
 
-## web-v8
+---
 
-Corrección global de nombre:
+# Deployment
 
-- `Mystic` cambiado a `Mystik` en toda la web.
-- Actualizados textos, metadatos, alt text, README y JavaScript.
-- Nombre oficial usado desde esta versión: `Martos & Mystik` / `Martos and Mystik`.
+The project is deployed using GitHub Pages.
 
+Main URL:
 
-## web-v9
+https://alejandroarevaloprogrammer.github.io/martos-and-mystik-web/
 
-Cambios:
+---
 
-- Las canciones del álbum pasan a mostrarse:
-  - móvil: 1 por fila
-  - tablet: 2 por fila
-  - escritorio: 2 por fila
+# What I Learned
 
-- Los singles ahora usan el mismo diseño visual que las canciones del álbum.
-- Las portadas de singles se muestran cuadradas, no recortadas en formato rectangular.
+While developing this project, I improved my understanding of multilingual front-end development, responsive layouts and dynamic content rendering with JavaScript.
 
+I also worked on organizing structured discography data, integrating external music players, improving mobile navigation and implementing SEO and social sharing metadata.
 
-## web-v10
+---
 
-Cambios:
+# Author
 
-- `Albums` cambiado a `Album` en EN / ES / CA.
-- La sección `Singles` aparece antes que `Album`.
-- Añadido embed de Bandcamp para `Don't Engage`.
-- El embed aparece en:
-  - `Latest Release`
-  - tarjeta del single `Don't Engage`
+Created by Alejandro Arevalo Rojas.
 
+GitHub:  
+https://github.com/alejandroarevaloprogrammer
 
-## web-v11
-- Eliminado el botón 'Listen on YouTube'.
-- Actualizado el reproductor de Bandcamp al formato large (120px).
+Portfolio:  
+https://alejandroarevalorojas.com/
 
+---
 
-## web-v12
+# License
 
-Cambios internos importantes:
+The source code in this repository is provided for portfolio and educational purposes.
 
-- `releases.js` ha sido sustituido por `discography.js`.
-- La discografía ahora usa una estructura única para álbumes, singles y canciones del álbum.
-- Cada single y cada track puede tener sus propias plataformas:
-  - `platforms.youtube`
-  - `platforms.bandcamp.embed`
-  - `platforms.bandcamp.url`
-- Añadidos embeds de Bandcamp para:
-  - `Don't Engage`
-  - `Obey`
-  - `Birds In Dub`
-- Las canciones del álbum ya están preparadas para recibir embeds de Bandcamp sin tocar HTML ni CSS.
-
-
-## web-v13
-
-Cambios:
-
-- Añadidos embeds de Bandcamp para las 8 canciones del álbum `Sick World`.
-- `discography.js` mantiene una estructura común para singles y tracks:
-  - `platforms.youtube`
-  - `platforms.bandcamp.embed`
-  - `platforms.bandcamp.url`
-- Los tracks del álbum ahora muestran reproductor Bandcamp igual que los singles.
-- `render.js` queda estabilizado para renderizar cualquier single o track con la misma lógica.
-
-
-## web-v14
-
-Corrección:
-
-- Corregidos los embeds de Bandcamp de las canciones 6, 7 y 8 del álbum `Sick World`.
-  - 06 More Than You Can Dub → track=2926156605
-  - 07 I Love Dub → track=929886929
-  - 08 Dub World → track=728273362
-
-
-## web-v15
-
-Corrección importante del orden real del álbum `Sick World`:
-
-1. Sick World
-2. I Love Jah
-3. More Than You Can Chew
-4. Thank You
-5. Dub World
-6. I Love Dub
-7. More Than You Can Dub
-8. Dub You
-
-También se han renombrado/reordenado las portadas físicas de los tracks 5-8:
-
-- `05-dub-world.jpg`
-- `06-i-love-dub.jpg`
-- `07-more-than-you-can-dub.jpg`
-- `08-dub-you.jpg`
-
-
-## web-v16
-
-Cambios:
-
-- Sustituida la portada del álbum `Sick World` por la portada cuadrada simple.
-- La imagen mantiene la ruta canónica:
-  - `assets/img/releases/albums/sick-world/cover.jpg`
-- Añadida separación explícita entre:
-  - `albumReleaseDate`
-  - `trackReleaseDate`
-
-Revisión:
-
-- Orden del álbum revisado: correcto.
-- Rutas y nombres de portadas de tracks revisados: correctos.
-
-
-## web-v18
-
-Cambios:
-
-- Se mantiene solo el ajuste seguro de `.back-to-top`:
-  - `right: max(1rem, env(safe-area-inset-right));`
-  - `bottom: max(1rem, env(safe-area-inset-bottom));`
-- No se ha aplicado `overflow-x: hidden` global como solución principal.
-- Se ha aplicado una corrección específica para evitar overflow horizontal en móvil:
-  - `.social-links` ahora permite `flex-wrap`.
-  - En móviles pequeños se reduce el tamaño/gap de los iconos sociales.
-  - El botón `.back-to-top` se reduce ligeramente en pantallas muy pequeñas.
-
-Revisión:
-
-- No se ha usado `100vw` como causa directa.
-- La corrección se centra en elementos fijos/flexibles que pueden salirse del ancho en móvil.
-
-
-## web-v19
-
-Corrección:
-
-- Añadido bloqueo definitivo del overflow horizontal.
-- Se usa `overflow-x: clip` en `html` y `body`.
-- Se añade fallback a `overflow-x: hidden` para navegadores que no soporten `clip`.
-- Se fuerza `box-sizing: border-box`.
-- Se limita `img`, `iframe`, `video`, `svg`, `main`, `section`, `header`, `footer` y `nav` a `max-width: 100%`.
-
-Motivo:
-
-- La web seguía permitiendo desplazamiento lateral en móvil.
-- Esta versión prioriza que la web quede fija horizontalmente en móviles.
+All music, artwork, photographs, logos and other media related to Martos & Mystik are the property of their respective owners and may not be reused without permission.
