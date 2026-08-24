@@ -459,10 +459,11 @@ svg {
 }
 
 .contact-form {
+    padding: 2rem;
+
     background: var(--mm-surface-soft);
     border: 1px solid var(--mm-border);
     border-radius: 0.75rem;
-    padding: 2rem;
 }
 
 .contact-form .form-label {
@@ -480,9 +481,15 @@ svg {
     background: #0d0d0d;
     border-color: var(--mm-orange);
     color: var(--mm-text);
+
     box-shadow: 0 0 0 0.2rem rgba(255, 84, 0, 0.2);
 }
 
+.contact-form textarea {
+    resize: vertical;
+}
+
 .contact-status {
+    min-height: 1.5rem;
     color: var(--mm-gold);
 }

@@ -1,10 +1,14 @@
-import { initLanguageSwitcher } from "./translations.js";
+import { initLanguageSwitcher, t } from "./translations.js";
 import { renderReleases, updateFeaturedRelease } from "./render.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     initLanguageSwitcher();
     renderReleases();
     updateFeaturedRelease();
+
+    // =========================================
+    // BACK TO TOP
+    // =========================================
 
     const backToTopButton = document.querySelector("#backToTop");
 
@@ -25,9 +29,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    const navbarCollapse = document.querySelector(".navbar-collapse");
-    const navbarNavLinks = document.querySelectorAll(".navbar-collapse .nav-link");
+    // =========================================
+    // MOBILE / TABLET NAVBAR
+    // =========================================
 
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    const navbarNavLinks = document.querySelectorAll(
+        ".navbar-collapse .nav-link"
+    );
+
+    // Cerrar menú al pulsar un enlace de navegación
     navbarNavLinks.forEach(link => {
         link.addEventListener("click", () => {
             if (window.innerWidth < 992 && navbarCollapse) {
@@ -38,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Cerrar menú al pulsar fuera
     document.addEventListener("click", (event) => {
         if (!navbarCollapse) return;
 
@@ -53,34 +65,65 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // =========================================
+    // CONTACT FORM
+    // =========================================
+
+    const contactForm = document.querySelector("#contactForm");
+    const contactSubmit = document.querySelector("#contactSubmit");
+    const contactStatus = document.querySelector("#contactStatus");
+
+    if (contactForm && contactSubmit && contactStatus) {
+        const EMAILJS_PUBLIC_KEY = "TU_PUBLIC_KEY";
+        const EMAILJS_SERVICE_ID = "TU_SERVICE_ID";
+        const EMAILJS_TEMPLATE_ID = "TU_TEMPLATE_ID";
+
+        emailjs.init({
+            publicKey: EMAILJS_PUBLIC_KEY
+        });
+
+        contactForm.addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            contactSubmit.disabled = true;
+            contactSubmit.textContent = t("contactSending");
+            contactStatus.textContent = "";
+
+            try {
+                await emailjs.sendForm(
+                    EMAILJS_SERVICE_ID,
+                    EMAILJS_TEMPLATE_ID,
+                    contactForm
+                );
+
+                contactForm.reset();
+
+                contactStatus.textContent = t("contactSuccess");
+            } catch (error) {
+                console.error("EmailJS error:", error);
+
+                contactStatus.textContent = t("contactError");
+            } finally {
+                contactSubmit.disabled = false;
+                contactSubmit.textContent = t("contactSend");
+            }
+        });
+    }
+
+    // =========================================
+    // LANGUAGE CHANGE
+    // =========================================
+
     document.addEventListener("languageChanged", () => {
         renderReleases();
         updateFeaturedRelease();
-    });
 
-    const contactForm = document.querySelector("#contactForm");
-const contactStatus = document.querySelector("#contactStatus");
+        if (contactSubmit) {
+            contactSubmit.textContent = t("contactSend");
+        }
 
-if (contactForm && contactStatus) {
-    emailjs.init("TU_PUBLIC_KEY");
-
-    contactForm.addEventListener("submit", async (event) => {
-        event.preventDefault();
-
-        contactStatus.textContent = "Sending...";
-
-        try {
-            await emailjs.sendForm(
-                "TU_SERVICE_ID",
-                "TU_TEMPLATE_ID",
-                contactForm
-            );
-
-            contactStatus.textContent = "Message sent successfully.";
-            contactForm.reset();
-        } catch (error) {
-            contactStatus.textContent = "There was an error sending the message.";
+        if (contactStatus) {
+            contactStatus.textContent = "";
         }
     });
-}
 });

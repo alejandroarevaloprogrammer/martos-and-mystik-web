@@ -21,6 +21,14 @@ export const translations = {
 
         contactEyebrow: "Booking & Info",
         contactTitle: "Contact",
+        contactIntro: "Get in touch with Martos & Mystik.",
+        contactName: "Name",
+        contactEmail: "Email",
+        contactMessage: "Message",
+        contactSend: "Send Message",
+        contactSending: "Sending...",
+        contactSuccess: "Message sent successfully. Thank you!",
+        contactError: "The message could not be sent. Please try again.",
 
         albumsTitle: "Album",
         singlesTitle: "Singles",
@@ -53,6 +61,14 @@ export const translations = {
 
         contactEyebrow: "Booking e info",
         contactTitle: "Contacto",
+        contactIntro: "Ponte en contacto con Martos & Mystik.",
+        contactName: "Nombre",
+        contactEmail: "Email",
+        contactMessage: "Mensaje",
+        contactSend: "Enviar mensaje",
+        contactSending: "Enviando...",
+        contactSuccess: "Mensaje enviado correctamente. ¡Gracias!",
+        contactError: "No se ha podido enviar el mensaje. Inténtalo de nuevo.",
 
         albumsTitle: "Álbum",
         singlesTitle: "Singles",
@@ -85,6 +101,14 @@ export const translations = {
 
         contactEyebrow: "Booking i info",
         contactTitle: "Contacte",
+        contactIntro: "Posa't en contacte amb Martos & Mystik.",
+        contactName: "Nom",
+        contactEmail: "Email",
+        contactMessage: "Missatge",
+        contactSend: "Enviar missatge",
+        contactSending: "Enviant...",
+        contactSuccess: "Missatge enviat correctament. Gràcies!",
+        contactError: "No s'ha pogut enviar el missatge. Torna-ho a provar.",
 
         albumsTitle: "Àlbum",
         singlesTitle: "Singles",
