@@ -12,7 +12,7 @@ https://alejandroarevaloprogrammer.github.io/martos-and-mystik-web/
 
 # Preview
 
-![Martos & Mystik Website Preview](og-image.jpg)
+![Martos & Mystik Website Preview](og-image.png)
 
 ---
 
