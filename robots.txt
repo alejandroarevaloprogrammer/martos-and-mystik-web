@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alejandroarevaloprogrammer.github.io/martos-and-mystik-web/sitemap.xml
