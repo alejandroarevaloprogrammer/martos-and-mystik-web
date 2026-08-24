@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ".navbar-collapse .nav-link"
     );
 
-    // Cerrar menú al pulsar un enlace de navegación
+    // Close menu when clicking a navigation link
     navbarNavLinks.forEach(link => {
         link.addEventListener("click", () => {
             if (window.innerWidth < 992 && navbarCollapse) {
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Cerrar menú al pulsar fuera
+    // Close menu when clicking outside
     document.addEventListener("click", (event) => {
         if (!navbarCollapse) return;
 
