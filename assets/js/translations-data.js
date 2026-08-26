@@ -11,7 +11,7 @@ export const translations = {
 
         aboutEyebrow: "The Duo",
         aboutTitle: "About Martos & Mystik",
-        aboutText: "Martos & Mystik is a duo formed by Catalan musician and riddim maker Martos and Czech violinist Mystik. Their music is rooted in reggae and dub, combining digital riddims, vocals, violin and improvisation. Martos brings his experience as a reggae bassist to the creation of the riddims, while Mystik contributes his own distinctive musical language through the violin. After releasing their first EP, Sick World, in 2023, the project continues to grow through new singles and an ongoing exploration of studio work.",
+        aboutText: "Martos & Mystik is a duo formed by Catalan musician and riddim maker Martos and Czech violinist Mystik. Their music is rooted in reggae and dub, combining digital riddims, vocals, violin and improvisation. Martos brings his experience as a reggae bassist to the creation of the riddims, while Mystik contributes his own distinctive musical language through the violin. After releasing their first EP, Sick World, in 2024, the project continues to grow through new singles and an ongoing exploration of studio work.",
 
         discographyEyebrow: "Music",
         discographyTitle: "Discography",
@@ -51,7 +51,7 @@ export const translations = {
 
         aboutEyebrow: "El dúo",
         aboutTitle: "Sobre Martos & Mystik",
-        aboutText: "Martos & Mystik es un dúo formado por el músico y riddim maker catalán Martos y el violinista checo Mystik. Su música parte del reggae y el dub y combina riddims digitales, voz, violín e improvisación. Martos traslada su experiencia como bajista de reggae a la creación de las bases, mientras Mystik aporta al proyecto un lenguaje personal a través del violín. Tras publicar en 2023 su primer EP, Sick World, el proyecto continúa creciendo a través de nuevos singles y una búsqueda constante en el trabajo de estudio.",
+        aboutText: "Martos & Mystik es un dúo formado por el músico y riddim maker catalán Martos y el violinista checo Mystik. Su música parte del reggae y el dub y combina riddims digitales, voz, violín e improvisación. Martos traslada su experiencia como bajista de reggae a la creación de las bases, mientras Mystik aporta al proyecto un lenguaje personal a través del violín. Tras publicar en 2024 su primer EP, Sick World, el proyecto continúa creciendo a través de nuevos singles y una búsqueda constante en el trabajo de estudio.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografía",
@@ -91,7 +91,7 @@ export const translations = {
 
         aboutEyebrow: "El duo",
         aboutTitle: "Sobre Martos & Mystik",
-        aboutText: "Martos & Mystik és un duo format pel músic i riddim maker català Martos i el violinista txec Mystik. La seva música parteix del reggae i el dub i combina riddims digitals, veu, violí i improvisació. Martos trasllada la seva experiència com a baixista de reggae a la creació de les bases, mentre que Mystik aporta al projecte un llenguatge personal a través del violí. Després de publicar el 2023 el seu primer EP, Sick World, el projecte continua creixent a través de nous singles i una recerca constant en el treball d'estudi.",
+        aboutText: "Martos & Mystik és un duo format pel músic i riddim maker català Martos i el violinista txec Mystik. La seva música parteix del reggae i el dub i combina riddims digitals, veu, violí i improvisació. Martos trasllada la seva experiència com a baixista de reggae a la creació de les bases, mentre que Mystik aporta al projecte un llenguatge personal a través del violí. Després de publicar el 2024 el seu primer EP, Sick World, el projecte continua creixent a través de nous singles i una recerca constant en el treball d'estudi.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografia",
