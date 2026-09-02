@@ -95,6 +95,8 @@ https://alejandroarevalorojas.com/
 
 # License
 
-The source code in this repository is provided for portfolio and educational purposes.
+This repository is publicly available for portfolio and reference purposes only.
 
-All music, artwork, photographs, logos and other media related to Martos & Mystik are the property of their respective owners and may not be reused without permission.
+The source code is not licensed for reuse, redistribution or commercial use without permission.
+
+All music, artwork, photographs, logos and other media related to Martos & Mystik are the property of their respective owners and may not be reused, reproduced or redistributed without permission.
