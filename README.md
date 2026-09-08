@@ -85,11 +85,14 @@ I also worked on organizing structured discography data, integrating external mu
 
 Created by Alejandro Arevalo Rojas.
 
+Portfolio:  
+https://alejandroarevalorojas.com/
+
 GitHub:  
 https://github.com/alejandroarevaloprogrammer
 
-Portfolio:  
-https://alejandroarevalorojas.com/
+LinkedIn:  
+https://www.linkedin.com/in/alejandro-ar%C3%A9valo-rojas-755335365/
 
 ---
 
