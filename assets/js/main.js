@@ -74,9 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const contactStatus = document.querySelector("#contactStatus");
 
     if (contactForm && contactSubmit && contactStatus) {
-        const EMAILJS_PUBLIC_KEY = "TU_PUBLIC_KEY";
-        const EMAILJS_SERVICE_ID = "TU_SERVICE_ID";
-        const EMAILJS_TEMPLATE_ID = "TU_TEMPLATE_ID";
+        const EMAILJS_PUBLIC_KEY = "efGeevVWc9bMA7JiT";
+        const EMAILJS_SERVICE_ID = "service_zv0caho";
+        const EMAILJS_TEMPLATE_ID = "template_jdstgga";
 
         emailjs.init({
             publicKey: EMAILJS_PUBLIC_KEY
