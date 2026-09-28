@@ -7,7 +7,8 @@ export const translations = {
 
         heroEyebrow: "Official Website",
         heroSubtitle: "Martos & Mystik is a Catalan-Czech duo blending digital riddims, vocals and violin into their own take on reggae and dub.",
-        heroButton: "Listen Now",
+
+        latestRelease: "Latest Release",
 
         aboutEyebrow: "The Duo",
         aboutTitle: "About Martos & Mystik",
@@ -15,6 +16,9 @@ export const translations = {
 
         discographyEyebrow: "Music",
         discographyTitle: "Discography",
+        singlesTitle: "Singles",
+        albumsTitle: "Albums",
+        tracksTitle: "Tracks",
 
         galleryEyebrow: "Visuals",
         galleryTitle: "Gallery",
@@ -28,15 +32,7 @@ export const translations = {
         contactSend: "Send Message",
         contactSending: "Sending...",
         contactSuccess: "Message sent successfully. Thank you!",
-        contactError: "The message could not be sent. Please try again.",
-
-        albumsTitle: "Album",
-        singlesTitle: "Singles",
-        tracksTitle: "Tracks",
-        latestRelease: "Latest Release",
-        releasedOn: "Released on",
-        viewOnYoutube: "Listen on YouTube",
-        comingSoon: "Coming soon"
+        contactError: "The message could not be sent. Please try again."
     },
 
     es: {
@@ -47,7 +43,8 @@ export const translations = {
 
         heroEyebrow: "Web oficial",
         heroSubtitle: "Martos & Mystik es un dúo catalano-checo que fusiona riddims digitales, voces y violín en una propuesta de reggae y dub.",
-        heroButton: "Escuchar ahora",
+
+        latestRelease: "Último lanzamiento",
 
         aboutEyebrow: "El dúo",
         aboutTitle: "Sobre Martos & Mystik",
@@ -55,6 +52,9 @@ export const translations = {
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografía",
+        singlesTitle: "Singles",
+        albumsTitle: "Álbumes",
+        tracksTitle: "Canciones",
 
         galleryEyebrow: "Visuales",
         galleryTitle: "Galería",
@@ -68,33 +68,29 @@ export const translations = {
         contactSend: "Enviar mensaje",
         contactSending: "Enviando...",
         contactSuccess: "Mensaje enviado correctamente. ¡Gracias!",
-        contactError: "No se ha podido enviar el mensaje. Inténtalo de nuevo.",
-
-        albumsTitle: "Álbum",
-        singlesTitle: "Singles",
-        tracksTitle: "Canciones",
-        latestRelease: "Último lanzamiento",
-        releasedOn: "Publicado el",
-        viewOnYoutube: "Escuchar en YouTube",
-        comingSoon: "Próximamente"
+        contactError: "No se ha podido enviar el mensaje. Inténtalo de nuevo."
     },
 
     ca: {
-        navAbout: "Sobre nosaltres",
+        navAbout: "Nosaltres",
         navDiscography: "Discografia",
         navGallery: "Galeria",
         navContact: "Contacte",
 
         heroEyebrow: "Web oficial",
         heroSubtitle: "Martos & Mystik és un duo catalanotxec que fusiona riddims digitals, veus i violí en una proposta de reggae i dub.",
-        heroButton: "Escolta ara",
+
+        latestRelease: "Últim llançament",
 
         aboutEyebrow: "El duo",
         aboutTitle: "Sobre Martos & Mystik",
-        aboutText: "Martos & Mystik és un duo format pel músic i riddim maker català Martos i el violinista txec Mystik. La seva música parteix del reggae i el dub i combina riddims digitals, veu, violí i improvisació. Martos trasllada la seva experiència com a baixista de reggae a la creació de les bases, mentre que Mystik aporta al projecte un llenguatge personal a través del violí. Després de publicar el 2024 el seu primer EP, Sick World, el projecte continua creixent a través de nous singles i una recerca constant en el treball d'estudi.",
+        aboutText: "Martos & Mystik és un duo format pel músic i riddim maker català Martos i el violinista txec Mystik. La seva música parteix del reggae i el dub i combina riddims digitals, veu, violí i improvisació. Martos trasllada la seva experiència com a baixista de reggae a la creació de les bases, mentre Mystik aporta al projecte un llenguatge personal a través del violí. Després de publicar el 2024 el seu primer EP, Sick World, el projecte continua creixent a través de nous singles i una recerca constant en el treball d'estudi.",
 
         discographyEyebrow: "Música",
         discographyTitle: "Discografia",
+        singlesTitle: "Singles",
+        albumsTitle: "Àlbums",
+        tracksTitle: "Cançons",
 
         galleryEyebrow: "Visuals",
         galleryTitle: "Galeria",
@@ -108,14 +104,6 @@ export const translations = {
         contactSend: "Enviar missatge",
         contactSending: "Enviant...",
         contactSuccess: "Missatge enviat correctament. Gràcies!",
-        contactError: "No s'ha pogut enviar el missatge. Torna-ho a provar.",
-
-        albumsTitle: "Àlbum",
-        singlesTitle: "Singles",
-        tracksTitle: "Cançons",
-        latestRelease: "Últim llançament",
-        releasedOn: "Publicat el",
-        viewOnYoutube: "Escoltar a YouTube",
-        comingSoon: "Properament"
+        contactError: "No s'ha pogut enviar el missatge. Torna-ho a provar."
     }
 };

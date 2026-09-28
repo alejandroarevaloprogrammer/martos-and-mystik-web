@@ -94,16 +94,6 @@ img {
     color: var(--mm-muted);
 }
 
-.hero-actions {
-    margin-top: 1.8rem;
-}
-
-.hero-brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .latest-release-card {
     background: var(--mm-surface);
     border: 1px solid var(--mm-border);
@@ -218,11 +208,15 @@ img {
 
 .track-card {
     height: 100%;
+    border-radius: 0.75rem;
 }
 
 .track-card img {
     width: 100%;
     display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.75rem;
     transition: transform 0.25s ease;
 }
 
@@ -252,54 +246,9 @@ img {
     letter-spacing: 0.1em;
 }
 
-.contact-text {
-    color: var(--mm-gold);
-    font-size: 1.25rem;
-}
-
-.footer {
-    padding: 2rem 0;
-    color: var(--mm-muted);
-    border-top: 1px solid var(--mm-border);
-}
-
-@media (max-width: 991px) {
-    .hero {
-        text-align: center;
-    }
-
-    .latest-release-card {
-        max-width: 520px;
-        margin: 0 auto;
-    }
-}
-
-
-/* web-v9: album tracks and singles share the same square card layout */
-.track-card img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-}
-
 .track-card .btn-mm {
     padding: 0.55rem 1rem;
     font-size: 0.9rem;
-}
-
-
-/* web-v10: Bandcamp player */
-.bandcamp-player iframe {
-    border: 0;
-    width: 100%;
-    height: 120px;
-    display: block;
-}
-
-
-/* web-v13: stable media cards */
-.track-card img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
 }
 
 .bandcamp-player iframe {
@@ -313,9 +262,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
 
     width: 100%;
+    max-width: 100%;
     margin: 1.5rem auto 2rem;
     text-align: center;
 }
@@ -332,22 +283,14 @@ img {
     font-size: 2rem;
     text-decoration: none;
 
-    transition: color .25s ease,
-                transform .25s ease;
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
 }
 
 .social-links a:hover {
     color: var(--mm-orange);
     transform: translateY(-3px);
-}
-
-.track-card img {
-    border-radius: 0.75rem;
-}
-
-.track-card {
-    border-radius: 0.75rem;
-    overflow: hidden;
 }
 
 .back-to-top {
@@ -392,10 +335,62 @@ img {
     background: var(--mm-gold);
     color: #000;
 }
-/* web-v18: mobile-safe social links */
-.social-links {
-    flex-wrap: wrap;
-    max-width: 100%;
+
+.footer {
+    padding: 2rem 0;
+    color: var(--mm-muted);
+    border-top: 1px solid var(--mm-border);
+}
+
+.contact-form {
+    padding: 2rem;
+
+    background: var(--mm-surface-soft);
+    border: 1px solid var(--mm-border);
+    border-radius: 0.75rem;
+}
+
+.contact-form .form-label {
+    color: var(--mm-gold);
+    font-weight: 700;
+}
+
+.contact-form .form-control {
+    background: #0d0d0d;
+    border: 1px solid var(--mm-border);
+    color: var(--mm-text);
+}
+
+.contact-form .form-control:focus {
+    background: #0d0d0d;
+    border-color: var(--mm-orange);
+    color: var(--mm-text);
+
+    box-shadow: 0 0 0 0.2rem rgba(255, 84, 0, 0.2);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-status {
+    min-height: 1.5rem;
+    color: var(--mm-gold);
+}
+
+/* =========================================
+RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+    .hero {
+        text-align: center;
+    }
+
+    .latest-release-card {
+        max-width: 520px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 420px) {
@@ -408,17 +403,17 @@ img {
         height: 42px;
         font-size: 1.65rem;
     }
-}
 
-/* web-v18: mobile-safe back-to-top button */
-@media (max-width: 420px) {
     .back-to-top {
         width: 44px;
         height: 44px;
     }
 }
 
-/* web-v19: definitive horizontal overflow lock */
+/* =========================================
+HORIZONTAL OVERFLOW
+========================================= */
+
 *,
 *::before,
 *::after {
@@ -456,40 +451,4 @@ iframe,
 video,
 svg {
     max-width: 100%;
-}
-
-.contact-form {
-    padding: 2rem;
-
-    background: var(--mm-surface-soft);
-    border: 1px solid var(--mm-border);
-    border-radius: 0.75rem;
-}
-
-.contact-form .form-label {
-    color: var(--mm-gold);
-    font-weight: 700;
-}
-
-.contact-form .form-control {
-    background: #0d0d0d;
-    border: 1px solid var(--mm-border);
-    color: var(--mm-text);
-}
-
-.contact-form .form-control:focus {
-    background: #0d0d0d;
-    border-color: var(--mm-orange);
-    color: var(--mm-text);
-
-    box-shadow: 0 0 0 0.2rem rgba(255, 84, 0, 0.2);
-}
-
-.contact-form textarea {
-    resize: vertical;
-}
-
-.contact-status {
-    min-height: 1.5rem;
-    color: var(--mm-gold);
 }

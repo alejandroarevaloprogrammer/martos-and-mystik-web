@@ -93,7 +93,6 @@ export const discography = [
         featured: false,
         cover: "assets/img/releases/albums/sick-world/cover.jpg",
         backCover: "assets/img/releases/albums/sick-world/back-cover.jpg",
-        artwork: "assets/img/releases/albums/sick-world/cover.jpg",
         photo: "assets/img/releases/albums/sick-world/group.jpg",
         label: "Martos and Mystik / Kraken Distribución",
         producer: "Joan Martos",
@@ -119,7 +118,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-06-30",
-                trackReleaseDate: "2023-06-30",
                 cover: "assets/img/releases/tracks/sick-world/01-sick-world.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=TJPq_iFBVS0",
@@ -136,7 +134,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-07-14",
-                trackReleaseDate: "2023-07-14",
                 cover: "assets/img/releases/tracks/sick-world/02-i-love-jah.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=Sy5FI9_hX2c",
@@ -153,7 +150,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-08-04",
-                trackReleaseDate: "2023-08-04",
                 cover: "assets/img/releases/tracks/sick-world/03-more-than-you-can-chew.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=sRB9apfcwRw",
@@ -170,7 +166,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-09-15",
-                trackReleaseDate: "2023-09-15",
                 cover: "assets/img/releases/tracks/sick-world/04-thank-you.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=m9SuYoE0TTs",
@@ -184,11 +179,9 @@ export const discography = [
                 id: "dub-world",
                 number: 5,
                 title: "Dub World",
-                officialTitle: "Dub World By Digital Cookies",
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-10-20",
-                trackReleaseDate: "2023-10-20",
                 cover: "assets/img/releases/tracks/sick-world/05-dub-world.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=dRlLetu9acc",
@@ -205,7 +198,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-11-10",
-                trackReleaseDate: "2023-11-10",
                 cover: "assets/img/releases/tracks/sick-world/06-i-love-dub.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=ys6KjWex8Zk",
@@ -222,7 +214,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2023-12-22",
-                trackReleaseDate: "2023-12-22",
                 cover: "assets/img/releases/tracks/sick-world/07-more-than-you-can-dub.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=QB52dMFL3wM",
@@ -239,7 +230,6 @@ export const discography = [
                 type: "track",
                 album: "sick-world",
                 releaseDate: "2024-01-26",
-                trackReleaseDate: "2024-01-26",
                 cover: "assets/img/releases/tracks/sick-world/08-dub-you.jpg",
                 platforms: {
                     youtube: "https://www.youtube.com/watch?v=SvCtOhdSvt4",

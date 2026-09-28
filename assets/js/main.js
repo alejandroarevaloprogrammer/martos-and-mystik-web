@@ -66,6 +66,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // =========================================
+    // DYNAMIC COPYRIGHT YEAR
+    // =========================================
+
+    const currentYear = document.querySelector("#currentYear");
+
+    if (currentYear) {
+        currentYear.textContent = new Date().getFullYear();
+    }
+
+    // =========================================
     // CONTACT FORM
     // =========================================
 
